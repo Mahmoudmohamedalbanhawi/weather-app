@@ -1,1 +1,56 @@
 /* You can add global styles to this file, and also import other style files */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body 
+{
+    margin: 0;
+    background-color: #132429;
+    color: #b8def9;
+}
+.flex 
+{
+    display: flex;
+    gap: 5rem;
+    margin: 3rem auto;
+    max-width: 55rem;
+}
+.temperatures
+{
+    padding: 2rem;
+    border-radius: 4px;
+    background: linear-gradient(#505a5d, #717678);
+    font-size: 1.25rem;
+    box-shadow: 0 0 8px rgba(25, 25, 24, 0.7);
+    height: 100vh;
+    header 
+    {
+    display: flex;
+    gap: 0.5rem;
+    h2{
+    text-align: left;
+    font-size: 1rem;
+    color: #ffffff;
+    margin: 0;
+    }
+    p
+    {
+    margin:  0;
+    font-weight: bold;
+    font-size: 0.85rem;
+    color: #b8def9;
+}
+}
+    .content 
+    {
+        p{
+            
+        padding: 15px 0 !important;
+        margin: 10px 0 !important;
+        }
+    }
+}
